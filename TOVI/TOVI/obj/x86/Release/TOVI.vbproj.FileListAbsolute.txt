@@ -1,0 +1,11 @@
+G:\Daniel\TOVI\TOVI\bin\Release\TOVI.exe
+G:\Daniel\TOVI\TOVI\bin\Release\TOVI.pdb
+G:\Daniel\TOVI\TOVI\bin\Release\TOVI.xml
+G:\Daniel\TOVI\TOVI\obj\x86\Release\TOVI.Form2.resources
+G:\Daniel\TOVI\TOVI\obj\x86\Release\TOVI.Resources.resources
+G:\Daniel\TOVI\TOVI\obj\x86\Release\TOVI.TIPOS.resources
+G:\Daniel\TOVI\TOVI\obj\x86\Release\TOVI.USUARIO.resources
+G:\Daniel\TOVI\TOVI\obj\x86\Release\TOVI.vbproj.GenerateResource.Cache
+G:\Daniel\TOVI\TOVI\obj\x86\Release\TOVI.exe
+G:\Daniel\TOVI\TOVI\obj\x86\Release\TOVI.xml
+G:\Daniel\TOVI\TOVI\obj\x86\Release\TOVI.pdb

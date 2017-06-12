@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E0954CF0-8480-4506-9115-2F3D2D51D24D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TOVI.My.MyApplication</StartupObject>
+    <RootNamespace>TOVI</RootNamespace>
+    <AssemblyName>TOVI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TOVI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TOVI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACCESOS.Designer.vb">
+      <DependentUpon>ACCESOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACCESOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Almacen.Designer.vb">
+      <DependentUpon>Almacen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Almacen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Con_al.Designer.vb">
+      <DependentUpon>Con_al.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Con_al.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Con_no.Designer.vb">
+      <DependentUpon>Con_no.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Con_no.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Con_ob.Designer.vb">
+      <DependentUpon>Con_ob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Con_ob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Con_pe.Designer.vb">
+      <DependentUpon>Con_pe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Con_pe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Con_ve.Designer.vb">
+      <DependentUpon>Con_ve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Con_ve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMP.Designer.vb">
+      <DependentUpon>EMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EMP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Existencias.Designer.vb">
+      <DependentUpon>Existencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Existencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INVITADO.Designer.vb">
+      <DependentUpon>INVITADO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INVITADO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Obras.Designer.vb">
+      <DependentUpon>Obras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Obras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personal.Designer.vb">
+      <DependentUpon>Personal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Personal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TIPOS.Designer.vb">
+      <DependentUpon>TIPOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TIPOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USUARIO.Designer.vb">
+      <DependentUpon>USUARIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USUARIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas.Designer.vb">
+      <DependentUpon>Ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ACCESOS.resx">
+      <DependentUpon>ACCESOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Almacen.resx">
+      <DependentUpon>Almacen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Con_al.resx">
+      <DependentUpon>Con_al.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Con_no.resx">
+      <DependentUpon>Con_no.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Con_ob.resx">
+      <DependentUpon>Con_ob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Con_pe.resx">
+      <DependentUpon>Con_pe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Con_ve.resx">
+      <DependentUpon>Con_ve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMP.resx">
+      <DependentUpon>EMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Existencias.resx">
+      <DependentUpon>Existencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INVITADO.resx">
+      <DependentUpon>INVITADO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Obras.resx">
+      <DependentUpon>Obras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personal.resx">
+      <DependentUpon>Personal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TIPOS.resx">
+      <DependentUpon>TIPOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USUARIO.resx">
+      <DependentUpon>USUARIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas.resx">
+      <DependentUpon>Ventas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
